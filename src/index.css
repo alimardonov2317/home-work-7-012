@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   color: white;
+   background: #1f2937;
+}
+
+input,
+select {
+   background: blue;
+   color: white;
+   border: none;
+}
+input {
+   color: gray;
+}
