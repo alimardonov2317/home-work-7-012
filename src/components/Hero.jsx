@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class StudentCRUD extends Component {
+export default class Hero extends Component {
     constructor() {
         super();
         this.state = {
@@ -25,7 +25,6 @@ export default class StudentCRUD extends Component {
         e.preventDefault();
 
         if (this.state.editMode) {
-            // Update existing student
             const updatedStudents = this.state.students.map(student => {
                 if (student.id === this.state.currentId) {
                     return {
